@@ -1,0 +1,104 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://i.pinimg.com/originals/00/45/8a/00458a6cff4c67187bd5bdac5a164390.png");
+    background-size: cover;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.game-container {
+    /* /* padding: 120px; */
+    width: 700px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.1); /* Fundo transparente */
+    backdrop-filter: blur(10px); /* Desfoque do fundo */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.2); Borda semitransparente */
+}
+
+#word-container {
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+#letter-input {
+    height: 25px;
+    width: 170px;
+    border-radius: 30px;
+    background-color: #dadada53;
+    /* color: #101010; */
+    border: 1px solid rgb(17, 17, 17);
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    font-size: 20px;
+    margin-left: 260px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#message {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#attempts-container{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+/* BOTOES */
+
+#guess-button {
+    font-size: 18px;
+    /* padding: 15px; */
+    height: 50px;
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color: #101010;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#guess-button:hover {
+    background-color: #272727;
+}
+
+#restart-button {
+    font-size: 18px;
+    /* padding: 15px; */
+    height: 50px;
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 70px;
+    background-color: #101010;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#restart-button:hover {
+    background-color: #272727 ;
+}
