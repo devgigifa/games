@@ -72,12 +72,14 @@ body{
   transition: transform 0.25s linear;
 }
 .card .front-view img{
-  width: 19px;
+  width: 50%; /* Ajuste o tamanho do ícone de frente */
+  height: 50%; /* Mantém a proporção */
+  object-fit: contain; /* Garante que a imagem não seja cortada */
 }
 .card .back-view img {
-  width: 100%; /* Altera para 100% para preencher o cartão inteiro */
-  height: 100%; /* Adiciona height 100% para manter a proporção */
-  object-fit: cover; /* Garante que a imagem preencha o cartão sem distorcer */
+  width: 100%; /* Preenche todo o card */
+  height: 100%; /* Preenche todo o card */
+  object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
 }
 .card .back-view{
   transform: rotateY(-180deg);
@@ -95,10 +97,13 @@ body{
     width: 350px;
   }
   .card .front-view img{
-    width: 17px;
+    width: 50%; /* Ajusta o tamanho do ícone de frente */
+    height: 50%;
   }
   .card .back-view img{
-    max-width: 40px;
+    width: 100%; /* Preenche todo o card */
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -108,9 +113,12 @@ body{
     width: 300px;
   }
   .card .front-view img{
-    width: 15px;
+    width: 50%; /* Ajusta o tamanho do ícone de frente */
+    height: 50%;
   }
   .card .back-view img{
-    max-width: 35px;
+    width: 100%; /* Preenche todo o card */
+    height: 100%;
+    object-fit: cover;
   }
 }

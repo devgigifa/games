@@ -10,7 +10,7 @@ body {
     height: 100vh;
     background: url("https://i.pinimg.com/originals/00/45/8a/00458a6cff4c67187bd5bdac5a164390.png");
     background-size: cover;
-    color: black;
+    color: white;
     padding: 10px; /* Para evitar que o conteúdo fique muito próximo das bordas */
 }
 
@@ -47,7 +47,7 @@ h1 {
     width: 60%; /* Responsividade com base em porcentagem */
     max-width: 300px; /* Limite de largura aumentado */
     border-radius: 30px;
-    background-color: #dadada53;
+    background-color: #ff414153;
     border: 1px solid rgb(17, 17, 17);
     font-weight: bold;
     padding: 10px;

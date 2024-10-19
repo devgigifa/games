@@ -8,19 +8,19 @@ O principal objetivo é lidar com muitos códigos, versionamento, desenvolver a 
 
 ## Jogos
 
-[] 2048
-[] Adivinha Palavra
-[] Connect
-[] Cubo Mágico
-[] Draw
-[] Número Secreto
-[] Piano
-[] Pedra, papel ou tesoura
-[] Jogo da cobrinha
-[] Termo
+[x] 2048
+[] Adivinha Palavra alt
+[] Connect alt
+[x] Cubo Mágico
+[] Draw nop
+[x] Número Secreto
+[] Piano nop
+[] Pedra, papel ou tesoura alt
+[x] Jogo da cobrinha
+[x] Termo
 [x] Tic Tac Toe
 [] Jogo de xadrez
-[] Jogo da memória
+[] Jogo da memória alt
 
 ## tecnologias
 
