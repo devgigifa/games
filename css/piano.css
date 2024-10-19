@@ -24,9 +24,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-header h2 {
-  font-size: 1.6rem;
-}
+
 header .column {
   display: flex;
   align-items: center;
