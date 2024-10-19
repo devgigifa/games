@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048 Game</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="https://s.cafebazaar.ir/images/icons/ir.nadgroup.game2048_512x512.png?x-img=v1/resize,h_256,w_256,lossless_false/optimize">
+    <link rel="stylesheet" href="../css/2048.css" />
+  </head>
+  <body>
+    <div class="container hide">
+      <div class="heading">
+        <h1>2048</h1>
+        <div class="score-container">
+          Score:
+          <span id="score">0</span>
+        </div>
+      </div>
+      <div class="grid"></div>
+    </div>
+    <div class="cover-screen">
+      <h2 id="over-text" class="hide">Game Over</h2>
+      <p id="result"></p>
+      <button id="start-button">Start Game</button>
+    </div>
+    <script src="../js/2048.js"></script>
+  </body>
+</html>

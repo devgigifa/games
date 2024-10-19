@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Permitir que o título e o tabuleiro sejam empilhados */
+    align-items: center; /* Centraliza horizontalmente */
+    background-color: #aaf; /* Altera para uma cor mais suave */
+    font-family: Arial, sans-serif; /* Fonte mais moderna */
+    padding: 20px; /* Adiciona espaço em volta do conteúdo */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px; /* Tamanho do título */
+    color: #333; /* Cor do texto */
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 2px solid #333; /* Altera a borda para uma cor mais escura */
+    width: 100%; /* Altera para 100% para responsividade */
+    max-width: 630px; /* Largura máxima */
+    background-color: rgb(74, 74, 198);
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 10px; /* Adiciona espaço interno */
+    overflow: hidden; /* Adiciona overflow oculto */
+}
+
+ul {
+    display: flex; /* Muda para flex para controlar melhor as colunas */
+    flex-direction: column; /* As colunas serão empilhadas verticalmente */
+    align-items: center; /* Centraliza os itens dentro da coluna */
+    margin: 0 5px; /* Adiciona espaço entre as colunas */
+}
+
+ul p {
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid #333; /* Altera a borda para uma cor mais escura */
+    border-radius: 50%; /* Muda para um círculo perfeito */
+    background-color: white;
+    transition: background-color 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+ul:hover {
+    cursor: pointer;
+    background-color: rgb(98, 136, 238);
+}
+
+@media (max-width: 700px) {
+    .board {
+        width: 90%; /* Ajusta a largura em telas menores */
+    }
+
+    ul p {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 520px) {
+    .board {
+        width: 90%; /* Ajusta a largura em telas menores */
+    }
+
+    ul p {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 420px) {
+    .board {
+        width: 90%; /* Ajusta a largura em telas menores */
+    }
+
+    ul p {
+        width: 30px;
+        height: 30px;
+    }
+}

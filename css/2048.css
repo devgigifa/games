@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Garante que o cabeçalho ocupe toda a largura */
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 4vw; /* Tamanho responsivo */
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.score-container {
+  color: #fcfcfc;
+  font-size: 1.3rem;
+}
+
+#score {
+  font-weight: 600;
+}
+
+.grid {
+  width: 80vw; /* Usar largura relativa */
+  height: 80vw; /* Largura igual à altura para manter a proporção */
+  max-width: 25em; /* Limitar a largura máxima */
+  max-height: 25em; /* Limitar a altura máxima */
+  background-color: #d3f2cf;
+  border: 5px solid #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5em;
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.927);
+}
+
+.box {
+  width: calc(100% / 4); /* 4 caixas por linha, preenchendo a largura da grid */
+  height: calc(100% / 4); /* 4 caixas por coluna, preenchendo a altura da grid */
+  border: 5px solid #a99480;
+  font-size: 3vw; /* Ajuste para tamanhos de tela */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mantém o resto do código igual */
+.cover-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#start-button {
+  background-color: #975e28;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1em;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.hide {
+  display: none;
+}
+
+/* Cores das caixas */
+.box-2 { background-color: #eee4da; color: #727371; }
+.box-4 { background-color: #ded2bc; color: #727371; }
+.box-8 { background-color: #dabcf1; color: white; }
+.box-16 { background-color: #baa9ee; color: white; }
+.box-32 { background-color: #bd9aff; color: white; }
+.box-64 { background-color: #a685d1; color: white; }
+.box-128 { background-color: #9074b4; color: white; }
+.box-256 { background-color: #775f96; color: white; }
+.box-512 { background-color: #5b4775; color: white; }
+.box-1024 { background-color: #403153; color: white; }
+.box-2048 { background-color: #2d203e; color: white; }
+
+/* Media queries para telas menores */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 6vw; /* Ajusta o tamanho do título */
+  }
+  
+  .box {
+      font-size: 8vw; /* Tamanho da fonte para telas pequenas */
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  h1 {
+      font-size: 5vw; /* Ajusta o tamanho do título */
+  }
+  
+  .box {
+      font-size: 6vw; /* Tamanho da fonte para telas médias */
+  }
+}

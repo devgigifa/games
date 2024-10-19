@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhar a Palavra</title>
+    <link rel="stylesheet" href="../css/adivinha.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.7.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jogo Adivinhe a Palavra</h1>
+        <div id="word-container"></div>
+        <div id="attempts-container">
+            <p>Letras Tentadas: <span id="attempts"></span></p>
+            <p>Você ainda tem <span id="remaining-attempts">10</span> tentativas restantes.</p>
+        </div>
+        <input type="text" id="letter-input" maxlength="1" placeholder="Digite uma letra:">
+        <div id="buttons-container"> <!-- Contêiner para os botões -->
+            <button id="guess-button">Tentar</button>
+            <button id="restart-button">Reiniciar</button>
+        </div>        
+        <p id="message"></p>
+    </div>
+    <script src="../js/adivinha.js"></script>
+</body>
+</html>

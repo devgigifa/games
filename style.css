@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    font-weight: 300;
+    line-height: 1.7;
+    color: #b19cd9;
+    background-color: #000000;
+    height: 100vh;
+}
+
+.main-grid {
+    color: white;
+}
+
+a {
+    font-size: 30px;
+    color: #b19cd9;
+    text-decoration: none;
+}
+
+#hcont {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: #3232e3;
+    padding: 5px;
+    text-align: center; /* Isso vai garantir que o conteúdo dentro do header seja centralizado */
+    border-bottom: 3px solid black;
+    display: flex; /* Usar flexbox para controle */
+    justify-content: center; /* Centralizando horizontalmente */
+    align-items: center; /* Centralizando verticalmente, caso necessário */
+}
+
+h1 {
+    color: rgb(217, 217, 217);
+    text-shadow: 1px 4px black;
+    margin: 0; /* Removendo possíveis margens que deslocam o h1 */
+}
+
+
+
+.container {
+    min-height: 60vh;
+    padding: 60px;
+}
+
+.produtos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    height: auto;
+    width: 31%;
+    margin-bottom: 10px;
+    /* background-color: #3232e3; Adicionando cor de fundo para a área do card */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 5px solid #3232e3;
+}
+
+.produto-img {
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border: none; /* Removendo borda aqui, já que foi aplicada ao card */
+}
+
+.card-text {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Responsividade */
+
+/* Monitores e notebooks - 3 cards por linha */
+@media (min-width: 1024px) {
+    .produtos-container {
+        justify-content: space-between;
+    }
+    .card {
+        width: 31%;
+    }
+}
+
+/* Tablets - 2 cards por linha */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        width: 48%;
+    }
+}
+
+/* Celulares - 1 card por linha */
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+    }
+}
+
+/* IMAGENS */
+#img0 {
+    background-image: url('assets/img/img0.jpg');
+}
+
+#img1 {
+    background-image: url('assets/img/img1.jpg');
+}
+
+#img2 {
+    background-image: url('assets/img/img2.jpg');
+}
+
+#img3 {
+    background-image: url('assets/img/img3.jpg');
+}
+
+#img4 {
+    background-image: url('assets/img/img4.jpg');
+}
+
+#img5 {
+    background-image: url('assets/img/img5.jpg');
+}
+
+#img6 {
+    background-image: url('assets/img/img6.jpg');
+}
+
+#img7 {
+    background-image: url('assets/img/img7.jpg');
+}
+
+#img8 {
+    background-image: url('assets/img/img8.jpg');
+}
+
+#img9 {
+    background-image: url('assets/img/img9.jpg');
+}
+
+#img10 {
+    background-image: url('assets/img/img10.jpg');
+}
+
+#img11 {
+    background-image: url('assets/img/img11.jpg');
+}
+
+#img12 {
+    background-image: url('assets/img/img12.jpg');
+}
