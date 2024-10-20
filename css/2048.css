@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #1e1828;
 }
 
 .heading {
@@ -46,7 +46,7 @@ h1 {
   height: 80vw; /* Largura igual à altura para manter a proporção */
   max-width: 25em; /* Limitar a largura máxima */
   max-height: 25em; /* Limitar a altura máxima */
-  background-color: #d3f2cf;
+  background-color: #c7c7c7;
   border: 5px solid #ffffff;
   display: flex;
   flex-wrap: wrap;
@@ -57,7 +57,7 @@ h1 {
 .box {
   width: calc(100% / 4); /* 4 caixas por linha, preenchendo a largura da grid */
   height: calc(100% / 4); /* 4 caixas por coluna, preenchendo a altura da grid */
-  border: 5px solid #a99480;
+  border: 5px solid #676767;
   font-size: 3vw; /* Ajuste para tamanhos de tela */
   font-weight: bold;
   display: flex;
@@ -81,7 +81,7 @@ h1 {
 }
 
 #start-button {
-  background-color: #975e28;
+  background-color: #81a58f;
   padding: 1em 2em;
   border: none;
   border-radius: 0.5em;
@@ -95,16 +95,16 @@ h1 {
 }
 
 /* Cores das caixas */
-.box-2 { background-color: #eee4da; color: #727371; }
-.box-4 { background-color: #ded2bc; color: #727371; }
-.box-8 { background-color: #dabcf1; color: white; }
-.box-16 { background-color: #baa9ee; color: white; }
-.box-32 { background-color: #bd9aff; color: white; }
-.box-64 { background-color: #a685d1; color: white; }
+.box-2 { background-color: #e6e2f6; color: #727371; }
+.box-4 { background-color: #e0fedf; color: #727371; }
+.box-8 { background-color: #ccc0ed; color: white; }
+.box-16 { background-color: #bccec1; color: white; }
+.box-32 { background-color: #baa9ee; color: white; }
+.box-64 { background-color: #93af9c; color: white; }
 .box-128 { background-color: #9074b4; color: white; }
-.box-256 { background-color: #775f96; color: white; }
+.box-256 { background-color: #647965; color: white; }
 .box-512 { background-color: #5b4775; color: white; }
-.box-1024 { background-color: #403153; color: white; }
+.box-1024 { background-color: #475548; color: white; }
 .box-2048 { background-color: #2d203e; color: white; }
 
 /* Media queries para telas menores */
