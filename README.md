@@ -1,6 +1,6 @@
 # games
 
-em desenvolvimento... aguarde
+toques finais... teste e sugira
 
 Link do site: https://devgigifa.github.io/games/
 
@@ -8,35 +8,30 @@ O principal objetivo é lidar com muitos códigos, versionamento, desenvolver a 
 
 ## Jogos
 
-[x] 2048
-[x] Adivinha Palavra
-[x] Connect 
-[x] Cubo Mágico
-[] Draw nop
-[x] Número Secreto
-[x] Piano
-[] Pedra, papel ou tesoura alt
-[x] Jogo da cobrinha
-[x] Termo
-[x] Tic Tac Toe
-[] Jogo de xadrez
-[x] Jogo da memória
-[] Dino
-[] Bubble
-[] Stick Game
+- [x] 2048
+- [x] Adivinha Palavra
+- [x] Connect 
+- [x] Cubo Mágico
+- [x] Draw
+- [x] Número Secreto
+- [x] Piano
+- [x] Jogo da cobrinha
+- [x] Termo
+- [x] Tic Tac Toe
+- [x] Jogo de xadrez
+- [x] Jogo da memória
 
 ## tecnologias
-
-css
-js
-html
+- css
+- javascript
+- html
 
 ## Alterações futuras
 
-[] Fazer o xadrez
-[] No draw não tem como voltar 
-[] Falta de botão home
-[] Clicar nas imagens
-[] Connect tirar alert e por pra aparecer na tela
-[] Snake aparece um pixel que não deveria 
-[] Memory adicionar confete
+- [x] Fazer o xadrez
+- [] No draw não tem como desfazer ultima alteração do desenho
+- [x] Falta de botão home
+- [x] Clicar nas imagens
+- [x] Connect tirar alert e por pra aparecer na tela
+- [] Snake aparece um pixel que não deveria 
+- [] Memory adicionar confete
