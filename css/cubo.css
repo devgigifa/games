@@ -36,6 +36,18 @@ Boris Šehovac */
     overflow: hidden;
     height: 100%;
   }
+
+#home {
+    position: fixed; 
+    top: 15px; 
+    left: 30px; 
+    z-index: 1000;
+}
+
+#home img {
+    width: 60px; 
+    height: auto; 
+}
   
   body {
     font-family: "BungeeFont", sans-serif;

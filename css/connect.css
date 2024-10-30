@@ -13,6 +13,18 @@ body {
     padding: 20px; /* Adiciona espaço em volta do conteúdo */
 }
 
+#home {
+    position: fixed; 
+    top: 15px; 
+    left: 30px; 
+    z-index: 1000;
+}
+
+#home img {
+    width: 60px; 
+    height: auto; 
+}
+
 h1 {
     text-align: center;
     margin: 20px 0;

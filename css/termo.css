@@ -11,6 +11,18 @@ hr {
     width: 600px;
 }
 
+#home {
+    position: fixed; 
+    top: 15px; 
+    left: 30px; 
+    z-index: 1000;
+}
+
+#home img {
+    width: 60px; 
+    height: auto; 
+} 
+
 #title {
     font-size: 36px;
     font-weight: bold;

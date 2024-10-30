@@ -20,6 +20,18 @@ body{
     padding-top: 5vh;
 }
 
+#home {
+    position: fixed; 
+    top: 15px; 
+    left: 30px; 
+    z-index: 1000;
+}
+
+#home img {
+    width: 60px; 
+    height: auto; 
+} 
+
 .turn-container{
     width: 170px;
     height: 80px;

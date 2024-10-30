@@ -30,3 +30,13 @@ O principal objetivo é lidar com muitos códigos, versionamento, desenvolver a 
 css
 js
 html
+
+## Alterações futuras
+
+[] Fazer o xadrez
+[] No draw não tem como voltar 
+[] Falta de botão home
+[] Clicar nas imagens
+[] Connect tirar alert e por pra aparecer na tela
+[] Snake aparece um pixel que não deveria 
+[] Memory adicionar confete
