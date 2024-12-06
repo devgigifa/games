@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hunor Marton Borbely">
+    <link rel="stylesheet" href="../css/traffic-run.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"></script>
+    <script defer src="../js/traffic-run.js"></script>
+    <title>Traffic Run</title>
+</head>
+<body>
+    <header id="hcont">
+        <a id="home" href="../index.html"><img src="https://cdn-icons-png.flaticon.com/512/3919/3919942.png" alt="home"></a>
+    </header>
+    <div id="score">Press UP</div>
+
+<div id="controls">
+  <div id="buttons">
+    <button id="accelerate">
+      <svg width="30" height="30" viewBox="0 0 10 10">
+        <g transform="rotate(0, 5,5)">
+          <path d="M5,4 L7,6 L3,6 L5,4" />
+        </g>
+      </svg>
+    </button>
+    <button id="decelerate">
+      <svg width="30" height="30" viewBox="0 0 10 10">
+        <g transform="rotate(180, 5,5)">
+          <path d="M5,4 L7,6 L3,6 L5,4" />
+        </g>
+      </svg>
+    </button>
+  </div>
+  <div id="instructions">
+    Press UP to start. Avoid collision with other vehicles by accelerating
+    or decelerating with the UP and DOWN keys.
+  </div>
+</div>
+
+<div id="results">
+  <div class="content">
+    <h1>You hit another vehicle</h1>
+    <p>To reset the game press R</p>
+  </div>
+</div>
+
+<a id="youtube-main" class="youtube" target="_top" href="https://youtu.be/JhgBwJn1bQw">
+  <span>Learn Three.js</span>
+</a>
+
+</body>
+</html>

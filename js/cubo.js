@@ -3600,21 +3600,15 @@ const animationEngine = ( () => {
       if ( options.convert ) this.convertAllIcons();
   
       if ( options.observe ) {
-  
         const MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
         this.observer = new MutationObserver( mutations => { this.convertAllIcons(); } );
         this.observer.observe( document.documentElement, { childList: true, subtree: true } );
-  
       }
-  
       return this;
-  
     }
   
     convertAllIcons() {
-  
       document.querySelectorAll( this.tagName ).forEach( icon => { this.convertIcon( icon ); } );
-  
     }
   
     convertIcon( icon ) {

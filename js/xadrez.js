@@ -14,7 +14,6 @@ insertImage()
 
 
 //Coloring
-
 function coloring() {
     const color = document.querySelectorAll('.box')
     color.forEach(color => {
@@ -28,7 +27,7 @@ function coloring() {
             color.style.backgroundColor = 'rgb(240, 201, 150)'
         }
         if (a % 2 !== 0) {
-            color.style.backgroundColor = 'rgb(100, 75, 43)'
+            color.style.backgroundColor = 'rgb(100, 70, 43)'
         }
     })
 }
@@ -36,16 +35,12 @@ coloring()
 
 
 //function to not remove the same team element
-
 function reddish() {
     document.querySelectorAll('.box').forEach(i1 => {
-        if (i1.style.backgroundColor == 'pink') {
-
+        if (i1.style.backgroundColor == 'purple') {
             document.querySelectorAll('.box').forEach(i2 => {
-
                 if (i2.style.backgroundColor == 'green' && i2.innerText.length !== 0) {
                     greenText = i2.innerText
-
                     pinkText = i1.innerText
 
                     pinkColor = ((Array.from(pinkText)).shift()).toString()
@@ -64,10 +59,6 @@ function reddish() {
                     if (a % 2 !== 0 && pinkColor == greenColor) {
                         i2.style.backgroundColor = 'rgb(100, 75, 43)'
                     }
-
-                    // if (pinkColor == greenColor) {
-                    //     i2.style.backgroundColor = 'rgb(253, 60, 60)'
-                    // }
                 }
             })
         }
@@ -84,7 +75,7 @@ document.querySelectorAll('.box').forEach(item => {
         }
         else if (item.style.backgroundColor == 'green' && item.innerText.length !== 0) {
             document.querySelectorAll('.box').forEach(i => {
-                if (i.style.backgroundColor == 'pink') {
+                if (i.style.backgroundColor == 'purple') {
                     pinkId = i.id
                     pinkText = i.innerText
                     document.getElementById(pinkId).innerText = ''
@@ -95,7 +86,6 @@ document.querySelectorAll('.box').forEach(item => {
                 }
             })
         }
-
         getId = item.id
         arr = Array.from(getId)
         arr.shift()
@@ -105,12 +95,11 @@ document.querySelectorAll('.box').forEach(item => {
         a = aside + aup
 
         // Function to display the available paths for all pieces
-
         function whosTurn(toggle) {
 
             // PAWN
             if (item.innerText == `${toggle}pawn`) {
-                item.style.backgroundColor = 'pink'
+                item.style.backgroundColor = 'purple'
                 if (tog % 2 !== 0 && aup < 800) {
                     if (document.getElementById(`b${a + 100}`).innerText.length == 0) {
                         document.getElementById(`b${a + 100}`).style.backgroundColor = 'green'
@@ -122,7 +111,6 @@ document.querySelectorAll('.box').forEach(item => {
                         document.getElementById(`b${a + 100 - 1}`).style.backgroundColor = 'green'
                     }
                 }
-
                 if (tog % 2 == 0 && aup > 100) {
                     if (document.getElementById(`b${a - 100}`).innerText.length == 0) {
                         document.getElementById(`b${a - 100}`).style.backgroundColor = 'green'
@@ -136,7 +124,6 @@ document.querySelectorAll('.box').forEach(item => {
                 }
             }
 
-            
             // KING
             if (item.innerText == `${toggle}king`) {
                 if (aside < 8) {
@@ -163,7 +150,7 @@ document.querySelectorAll('.box').forEach(item => {
                 if (aup < 800 && aside > 1) {
                     document.getElementById(`b${a + 100 - 1}`).style.backgroundColor = 'green'
                 }
-                item.style.backgroundColor = 'pink'
+                item.style.backgroundColor = 'purple'
             }
 
 
@@ -205,7 +192,7 @@ document.querySelectorAll('.box').forEach(item => {
                         break
                     }
                 }
-                item.style.backgroundColor = 'pink'
+                item.style.backgroundColor = 'purple'
             }
 
 
@@ -247,7 +234,7 @@ document.querySelectorAll('.box').forEach(item => {
                         break
                     }
                 }
-                item.style.backgroundColor = 'pink'
+                item.style.backgroundColor = 'purple'
             }
 
 
@@ -325,7 +312,7 @@ document.querySelectorAll('.box').forEach(item => {
                         break
                     }
                 }
-                item.style.backgroundColor = 'pink'
+                item.style.backgroundColor = 'purple'
             }
 
 
@@ -355,21 +342,22 @@ document.querySelectorAll('.box').forEach(item => {
                 if (aside > 1 && aup > 200) {
                     document.getElementById(`b${a - 200 - 1}`).style.backgroundColor = 'green'
                 }
-                item.style.backgroundColor = 'pink'
+                item.style.backgroundColor = 'purple'
             }
         }
 
-
-        // Toggling the turn
-        if (tog % 2 !== 0) {
-            document.getElementById('tog').innerText = "White's Turn"
-            whosTurn('W')
-        }
-        if (tog % 2 == 0) {
-            document.getElementById('tog').innerText = "Black's Turn"
-            whosTurn('B')
-        }
-        reddish()
+// Toggling the turn
+if (tog % 2 !== 0) {
+    document.body.style.backgroundColor = '#ffffff'; 
+    document.body.style.color = '#000000';
+    whosTurn('W');
+}
+if (tog % 2 === 0) {
+    document.body.style.backgroundColor = '#000000'; 
+    document.body.style.color = '#ffffff';
+    whosTurn('B');
+}
+reddish();
 
 
         // winning()
@@ -398,7 +386,7 @@ document.querySelectorAll('.box').forEach(item => {
 // Moving the element
 document.querySelectorAll('.box').forEach(hathiTest => {
     hathiTest.addEventListener('click', function () {
-        if (hathiTest.style.backgroundColor == 'pink') {
+        if (hathiTest.style.backgroundColor == 'purple') {
             pinkId = hathiTest.id
             pinkText = hathiTest.innerText
             document.querySelectorAll('.box').forEach(hathiTest2 => {
@@ -414,7 +402,6 @@ document.querySelectorAll('.box').forEach(hathiTest => {
         }
     })
 })
-
 
 // Prevents from selecting multiple elements
 z = 0
