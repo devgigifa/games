@@ -29,9 +29,9 @@ O principal objetivo é lidar com muitos códigos, versionamento, desenvolver a 
 ## Alterações futuras
 
 - [x] Fazer o xadrez
-- [] No draw não tem como desfazer ultima alteração do desenho
+- [ ] No draw não tem como desfazer ultima alteração do desenho
 - [x] Falta de botão home
 - [x] Clicar nas imagens
 - [x] Connect tirar alert e por pra aparecer na tela
-- [] Snake aparece um pixel que não deveria 
-- [] Memory adicionar confete
+- [ ] Snake aparece um pixel que não deveria 
+- [ ] Memory adicionar confete
