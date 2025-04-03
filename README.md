@@ -1,6 +1,7 @@
-# games
+# Stellar Games
 
-toques finais... teste e sugira
+Toques finais... teste e sugira
+Alguns jogos ainda não são compatíveis com dispositivos móveis!
 
 Link do site: https://devgigifa.github.io/games/
 
