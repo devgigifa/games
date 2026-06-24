@@ -9,9 +9,6 @@ A collection of classic and original browser-based games built as a personal por
 ### 2048
 Slide numbered tiles across a 4×4 grid and combine matching values to reach the elusive 2048 tile. Simple to learn, hard to put down.
 
-### Assets
-Shared sprites, fonts, and resources used across the project.
-
 ### Chess
 A fully functional two-player chess game played in the browser. Classic rules, clean board.
 
