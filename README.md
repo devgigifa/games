@@ -13,7 +13,7 @@ Slide numbered tiles across a 4×4 grid and combine matching values to reach the
 Shared sprites, fonts, and resources used across the project.
 
 ### Chess
-A fully functional two-player chess game played in the browser. Classic rules, clean board — no AI, just you and your opponent.
+A fully functional two-player chess game played in the browser. Classic rules, clean board.
 
 ### Connect
 The classic Connect Four experience. Drop colored discs into a vertical grid and be the first to line up four in a row — horizontally, vertically, or diagonally.
