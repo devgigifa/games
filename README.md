@@ -46,7 +46,7 @@ Two rockets, incoming asteroids, one winner. Shoot your opponent's ship while do
 The computer has a secret number in mind. Type your guess and it will tell you whether the answer is higher or lower — keep narrowing it down until you crack it.
 
 ### Snake
-Guide the growing snake around the board to eat food without hitting the walls or your own tail. A timeless arcade challenge.
+Guide the growing snake around the board to eat food without hitting your own tail. A timeless arcade challenge.
 
 ### Termo
 A Portuguese word-guessing game inspired by Wordle. You get six attempts to guess the hidden five-letter word — each guess reveals which letters are correct, misplaced, or absent.
