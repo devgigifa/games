@@ -25,7 +25,7 @@ Nine holes, endless ghosts. Phantoms pop up at random and you have to click them
 A turn-based artillery game inspired by the legendary QBasic classic. Two gorillas face off on a city skyline — lob explosive bananas at each other by calculating angle and power.
 
 ### Guess
-A word-guessing game in the spirit of Hangman — without the hanging man. You have a limited number of attempts to figure out the hidden word, one letter at a time.
+A word-guessing game. You have a limited number of attempts to figure out the hidden word, one letter at a time.
 
 ### Memory
 A card-flipping memory game. Flip two cards at a time and try to match all pairs in as few moves as possible.
