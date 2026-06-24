@@ -52,7 +52,7 @@ Guide the growing snake around the board to eat food without hitting your own ta
 A Portuguese word-guessing game inspired by Wordle. You get six attempts to guess the hidden five-letter word — each guess reveals which letters are correct, misplaced, or absent.
 
 ### Tetris
-The iconic falling-block puzzle game. Rotate and place tetrominoes to complete full rows before the stack reaches the top.
+The iconic falling-block puzzle game. Place tetrominoes to complete full rows before the stack reaches the top.
 
 ### The Cube
 An interactive 3D cube you can spin in any direction with your mouse. A satisfying visual experiment built entirely in the browser.
