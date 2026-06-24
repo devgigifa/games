@@ -2,9 +2,11 @@
 
 A collection of classic and original browser-based games built as a personal portfolio project. All games run directly in the browser — no downloads, no installs, just play.
 
+🎮 **Play now:** https://devgigifa.github.io/games-collection/
+
 ---
 
-## 🎮 Games
+## Games
 
 ### 2048
 Slide numbered tiles across a 4×4 grid and combine matching values to reach the elusive 2048 tile. Simple to learn, hard to put down.
